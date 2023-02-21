@@ -1,0 +1,7 @@
+<?php
+  class DBConnectify{
+      public function connect($hostname, $user, $pwd, $db){
+          return mysqli_connect($hostname, $user, $pwd, $db);
+      }
+  }
+?>
